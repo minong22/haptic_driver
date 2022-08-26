@@ -8,7 +8,7 @@ libsusb-1.0 is needed to connect haptic device and computer.
 clone repository
 and
 
-```c
+```linux
 
 cd catkin_ws/
 catkin_make
