@@ -21,9 +21,7 @@ after that you can detect your haptic device and initialize it.
 Then you are ready to start the haptic_ros_driver
 
 ```linux
-
 cd catkin_ws/
 catkin_make
 rosrun haptic_ros_driver haptic_ros_driver
-
 ```
