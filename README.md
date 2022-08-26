@@ -1,2 +1,2 @@
 # haptic_driver
-omega.6
+haptic device omega.6 ros driver
