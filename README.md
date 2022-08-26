@@ -29,20 +29,23 @@ rosrun haptic_ros_driver haptic_ros_driver
 By using this code, you can publish the position & orientaton data and you can subscribe the force data.       
 And there are rqt_pub which i use it to get the graph of force simultaneously.       
 * publisher
-  ** pos
-  topic name : /haptic/position
+  * pos        
+  topic name : /haptic/position        
   type : geometry_msgs::Vector3Stamped
-  ** ori
-  topic name : /haptic/ori
+  
+  * ori          
+  topic name : /haptic/ori        
   type : geometry_msgs::Vector3
-  ** pose
-  topic name : /haptic/pose
+  
+  * pose        
+  topic name : /haptic/pose         
   type : geometry_msgs::Pose
-  ** rqt_force
-  topic name : /rqt/force
+  
+  * rqt_force        
+  topic name : /rqt/force         
   type : geometry_msgs::Vector3
 
 * subscriber
-  ** force
-  topic name : /haptic/force
+  * force        
+  topic name : /haptic/force          
   type : geometry_msgs::Vector3
