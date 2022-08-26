@@ -53,5 +53,8 @@ And there are rqt_pub which i use it to get the graph of force simultaneously.
   type : geometry_msgs::Vector3          
          
 And if you need mapping the force, use the ForceMapping function inside of the code !        
+dhd library which force dimension is served makes easy to operate the device.        
+I use dhdGetPosition, dhdGetOrientationRad, dhdSetForce function. 
+         
 
 ### Enjoy your operation !
