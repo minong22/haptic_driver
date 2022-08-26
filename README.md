@@ -53,7 +53,7 @@ And there are rqt_pub which i use it to get the graph of force simultaneously.
   type : ```geometry_msgs::Vector3```          
          
 And if you need mapping the force, use the ForceMapping function inside of the code !        
-dhdc.h which force dimension is served makes easy to operate the device. (https://github.com/radarsat1/chai3d/blob/master/external/DHD/include/dhdc.h)        
+dhdc.h which force dimension is served makes easy to operate the device. (https://github.com/radarsat1/chai3d/blob/master/external/DHD/include/dhdc.h)      
 I use dhdGetPosition, dhdGetOrientationRad, dhdSetForce function. 
          
 
