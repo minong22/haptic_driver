@@ -1,6 +1,6 @@
 # haptic_driver
 haptic device omega.6 ros driver
-reference : [github/jacknlliu/haptic_ros_driver] (https://github.com/jacknlliu/haptic_ros_driver) 
+reference : (https://github.com/jacknlliu/haptic_ros_driver) 
 
 ## 0.prerequisities
 libsusb-1.0 is needed to connect haptic device and computer. 
