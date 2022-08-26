@@ -1,5 +1,5 @@
 # haptic_driver
-haptic device omega.6 ros driver
+### haptic device omega.6 ros driver
 You can get the pose of the haptic device and set the force of the device.       
 
 reference : (https://github.com/jacknlliu/haptic_ros_driver) 
