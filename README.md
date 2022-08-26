@@ -1,2 +1,3 @@
 # haptic_driver
-omega.6
+how to use the omega.6 !
+
