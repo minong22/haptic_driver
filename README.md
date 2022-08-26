@@ -1,5 +1,7 @@
 # haptic_driver
-haptic device omega.6 ros driver           
+haptic device omega.6 ros driver
+You can get the pose of the haptic device and set the force of the device.       
+
 reference : (https://github.com/jacknlliu/haptic_ros_driver) 
 
 ## 0.prerequisities
@@ -48,4 +50,8 @@ And there are rqt_pub which i use it to get the graph of force simultaneously.
 * subscriber
   * force        
   topic name : /haptic/force          
-  type : geometry_msgs::Vector3
+  type : geometry_msgs::Vector3          
+         
+And if you need mapping the force, use the ForceMapping function inside of the code !        
+
+###Enjoy your operation !
