@@ -32,11 +32,11 @@ By using this code, you can publish the position & orientaton data and you can s
 And there are rqt_pub which i use it to get the graph of force simultaneously.       
 * publisher
   * pos        
-  topic name : /haptic/position        
-  type : geometry_msgs::Vector3Stamped
+  topic name : ```/haptic/position```        
+  type : ```geometry_msgs::Vector3Stamped```
   
   * ori          
-  topic name : /haptic/ori        
+  topic name : ```/haptic/ori```        
   type : geometry_msgs::Vector3
   
   * pose        
