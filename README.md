@@ -52,7 +52,8 @@ And there are rqt_pub which i use it to get the graph of force simultaneously.
   topic name : ```/haptic/force```          
   type : ```geometry_msgs::Vector3```          
          
-And if you need mapping the force, use the ForceMapping function inside of the code !        
+And if you need mapping the force, use the ForceMapping function inside of the code !      
+         
 dhdc.h : https://github.com/radarsat1/chai3d/blob/master/external/DHD/include/dhdc.h     
 I use dhdGetPosition, dhdGetOrientationRad, dhdSetForce function. 
          
